@@ -1,0 +1,19 @@
+Compilation:
+    make
+
+Running:
+    ./integral_omp <n> <a> <b> <k> <f>
+
+    where:
+         * n - number of threads
+         * a - beginning
+         * b - end
+         * k - number of trapezoids
+         * f - function
+
+Example:
+     ./integral_omp 2 0 10 10000000 x^2
+
+Result:
+    Time: 257.299ms
+    Integral value: 333.333
